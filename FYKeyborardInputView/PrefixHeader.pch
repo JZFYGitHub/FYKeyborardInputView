@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  FYKeyborardInputView
+//
+//  Created by mac on 2018/4/8.
+//  Copyright © 2018年 fanyang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry.h>
+
+typedef void(^FYSendInfoBlock)(NSString *info);
+
+
+#define kFontSize(size) [UIFont systemFontOfSize:(size)]
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define FYKeyWindows [UIApplication sharedApplication].keyWindow
+
+#define FBGColor [UIColor colorWithRed:0.93 green:0.95 blue:0.96 alpha:1.00]
+
+#endif /* PrefixHeader_pch */

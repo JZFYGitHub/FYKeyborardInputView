@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04850BFB207B6AB400EF53C7 /* FYKeyborardEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850BFA207B6AB400EF53C7 /* FYKeyborardEditView.m */; };
+		04B3E031207A1F0100CABD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3E030207A1F0100CABD38 /* AppDelegate.m */; };
+		04B3E034207A1F0100CABD38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3E033207A1F0100CABD38 /* ViewController.m */; };
+		04B3E037207A1F0100CABD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3E035207A1F0100CABD38 /* Main.storyboard */; };
+		04B3E039207A1F0100CABD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3E038207A1F0100CABD38 /* Assets.xcassets */; };
+		04B3E03C207A1F0100CABD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3E03A207A1F0100CABD38 /* LaunchScreen.storyboard */; };
+		04B3E03F207A1F0100CABD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3E03E207A1F0100CABD38 /* main.m */; };
+		04B3E048207A1FCE00CABD38 /* FYKeyborardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3E047207A1FCE00CABD38 /* FYKeyborardInputView.m */; };
+		04B3E04B207A202F00CABD38 /* FYPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3E04A207A202F00CABD38 /* FYPwdView.m */; };
+		BD59B06CC3BDFA9423F65BF5 /* libPods-FYKeyborardInputView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2380CACBB6DD38FA9E776C4 /* libPods-FYKeyborardInputView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04850BF9207B6AB400EF53C7 /* FYKeyborardEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYKeyborardEditView.h; sourceTree = "<group>"; };
+		04850BFA207B6AB400EF53C7 /* FYKeyborardEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYKeyborardEditView.m; sourceTree = "<group>"; };
+		04B3E02C207A1F0100CABD38 /* FYKeyborardInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYKeyborardInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B3E02F207A1F0100CABD38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B3E030207A1F0100CABD38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B3E032207A1F0100CABD38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B3E033207A1F0100CABD38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B3E036207A1F0100CABD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B3E038207A1F0100CABD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B3E03B207A1F0100CABD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B3E03D207A1F0100CABD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3E03E207A1F0100CABD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B3E046207A1FCE00CABD38 /* FYKeyborardInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYKeyborardInputView.h; sourceTree = "<group>"; };
+		04B3E047207A1FCE00CABD38 /* FYKeyborardInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYKeyborardInputView.m; sourceTree = "<group>"; };
+		04B3E049207A202F00CABD38 /* FYPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPwdView.h; sourceTree = "<group>"; };
+		04B3E04A207A202F00CABD38 /* FYPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPwdView.m; sourceTree = "<group>"; };
+		04B3E04C207A220400CABD38 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		52C7C751DA7265FFFF8D1B71 /* Pods-FYKeyborardInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyborardInputView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYKeyborardInputView/Pods-FYKeyborardInputView.debug.xcconfig"; sourceTree = "<group>"; };
+		CC12C7AD449EA93D2382F659 /* Pods-FYKeyborardInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyborardInputView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYKeyborardInputView/Pods-FYKeyborardInputView.release.xcconfig"; sourceTree = "<group>"; };
+		D2380CACBB6DD38FA9E776C4 /* libPods-FYKeyborardInputView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYKeyborardInputView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B3E029207A1F0100CABD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD59B06CC3BDFA9423F65BF5 /* libPods-FYKeyborardInputView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B3E023207A1F0100CABD38 = {
+			isa = PBXGroup;
+			children = (
+				04B3E02E207A1F0100CABD38 /* FYKeyborardInputView */,
+				04B3E02D207A1F0100CABD38 /* Products */,
+				FD56EA33877E563D6F52F8EA /* Pods */,
+				3C9ADE3EF7DEC6A8C5BFC804 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04B3E02D207A1F0100CABD38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B3E02C207A1F0100CABD38 /* FYKeyborardInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B3E02E207A1F0100CABD38 /* FYKeyborardInputView */ = {
+			isa = PBXGroup;
+			children = (
+				04B3E045207A1F1900CABD38 /* KeyborardInputView */,
+				04B3E02F207A1F0100CABD38 /* AppDelegate.h */,
+				04B3E030207A1F0100CABD38 /* AppDelegate.m */,
+				04B3E032207A1F0100CABD38 /* ViewController.h */,
+				04B3E033207A1F0100CABD38 /* ViewController.m */,
+				04B3E035207A1F0100CABD38 /* Main.storyboard */,
+				04B3E038207A1F0100CABD38 /* Assets.xcassets */,
+				04B3E03A207A1F0100CABD38 /* LaunchScreen.storyboard */,
+				04B3E03D207A1F0100CABD38 /* Info.plist */,
+				04B3E03E207A1F0100CABD38 /* main.m */,
+				04B3E04C207A220400CABD38 /* PrefixHeader.pch */,
+			);
+			path = FYKeyborardInputView;
+			sourceTree = "<group>";
+		};
+		04B3E045207A1F1900CABD38 /* KeyborardInputView */ = {
+			isa = PBXGroup;
+			children = (
+				04B3E046207A1FCE00CABD38 /* FYKeyborardInputView.h */,
+				04B3E047207A1FCE00CABD38 /* FYKeyborardInputView.m */,
+				04850BF9207B6AB400EF53C7 /* FYKeyborardEditView.h */,
+				04850BFA207B6AB400EF53C7 /* FYKeyborardEditView.m */,
+				04B3E049207A202F00CABD38 /* FYPwdView.h */,
+				04B3E04A207A202F00CABD38 /* FYPwdView.m */,
+			);
+			path = KeyborardInputView;
+			sourceTree = "<group>";
+		};
+		3C9ADE3EF7DEC6A8C5BFC804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2380CACBB6DD38FA9E776C4 /* libPods-FYKeyborardInputView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD56EA33877E563D6F52F8EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52C7C751DA7265FFFF8D1B71 /* Pods-FYKeyborardInputView.debug.xcconfig */,
+				CC12C7AD449EA93D2382F659 /* Pods-FYKeyborardInputView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B3E02B207A1F0100CABD38 /* FYKeyborardInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B3E042207A1F0100CABD38 /* Build configuration list for PBXNativeTarget "FYKeyborardInputView" */;
+			buildPhases = (
+				6475618A4F4A8E6A50379C75 /* [CP] Check Pods Manifest.lock */,
+				04B3E028207A1F0100CABD38 /* Sources */,
+				04B3E029207A1F0100CABD38 /* Frameworks */,
+				04B3E02A207A1F0100CABD38 /* Resources */,
+				D6F5717FF0D048A25FDADDD1 /* [CP] Embed Pods Frameworks */,
+				6C34579FBAC124B57100D679 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYKeyborardInputView;
+			productName = FYKeyborardInputView;
+			productReference = 04B3E02C207A1F0100CABD38 /* FYKeyborardInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B3E024207A1F0100CABD38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = fanyang;
+				TargetAttributes = {
+					04B3E02B207A1F0100CABD38 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04B3E027207A1F0100CABD38 /* Build configuration list for PBXProject "FYKeyborardInputView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B3E023207A1F0100CABD38;
+			productRefGroup = 04B3E02D207A1F0100CABD38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B3E02B207A1F0100CABD38 /* FYKeyborardInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B3E02A207A1F0100CABD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3E03C207A1F0100CABD38 /* LaunchScreen.storyboard in Resources */,
+				04B3E039207A1F0100CABD38 /* Assets.xcassets in Resources */,
+				04B3E037207A1F0100CABD38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6475618A4F4A8E6A50379C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYKeyborardInputView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C34579FBAC124B57100D679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYKeyborardInputView/Pods-FYKeyborardInputView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F5717FF0D048A25FDADDD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYKeyborardInputView/Pods-FYKeyborardInputView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B3E028207A1F0100CABD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3E034207A1F0100CABD38 /* ViewController.m in Sources */,
+				04B3E04B207A202F00CABD38 /* FYPwdView.m in Sources */,
+				04B3E03F207A1F0100CABD38 /* main.m in Sources */,
+				04B3E048207A1FCE00CABD38 /* FYKeyborardInputView.m in Sources */,
+				04B3E031207A1F0100CABD38 /* AppDelegate.m in Sources */,
+				04850BFB207B6AB400EF53C7 /* FYKeyborardEditView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04B3E035207A1F0100CABD38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B3E036207A1F0100CABD38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B3E03A207A1F0100CABD38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B3E03B207A1F0100CABD38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B3E040207A1F0100CABD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B3E041207A1F0100CABD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B3E043207A1F0100CABD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C7C751DA7265FFFF8D1B71 /* Pods-FYKeyborardInputView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FYKeyborardInputView/PrefixHeader.pch";
+				INFOPLIST_FILE = FYKeyborardInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn..FYKeyborardInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B3E044207A1F0100CABD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC12C7AD449EA93D2382F659 /* Pods-FYKeyborardInputView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FYKeyborardInputView/PrefixHeader.pch";
+				INFOPLIST_FILE = FYKeyborardInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn..FYKeyborardInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B3E027207A1F0100CABD38 /* Build configuration list for PBXProject "FYKeyborardInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3E040207A1F0100CABD38 /* Debug */,
+				04B3E041207A1F0100CABD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B3E042207A1F0100CABD38 /* Build configuration list for PBXNativeTarget "FYKeyborardInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3E043207A1F0100CABD38 /* Debug */,
+				04B3E044207A1F0100CABD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B3E024207A1F0100CABD38 /* Project object */;
+}
